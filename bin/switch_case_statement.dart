@@ -1,24 +1,16 @@
-enum Size{
-  xs,
-  s,
-  m,
-  l,
-  xl,
-  xxl
-}
 void main(){
-  var size=Size.xl;
+  var size='xxl';
   switch(size){
-    case Size.xs:
+    case 'xs':
       print("my shirst size is xs");
       break;//jump statement
-    case Size.s:
+    case 's':
       print("my shirt size is s");
       break;
-    case Size.xl:
+    case 'xl':
       print("my shirt size is xl");
       break;
-    case Size.xxl:
+    case 'xxl':
       print("my shirt size is xxl");
       break;
     default:
